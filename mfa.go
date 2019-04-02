@@ -23,7 +23,7 @@ func fatalErr(err error) {
 
 func main() {
 
-	srcF := flag.String("s", "", "Source (primary) profile")
+	srcF := flag.String("s", "default", "Source (primary) profile")
 	dstF := flag.String("d", "", "MFA-enabled profile")
 
 	flag.Parse()
